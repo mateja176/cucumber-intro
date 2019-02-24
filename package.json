@@ -6,7 +6,8 @@
   "scripts": {
     "cucumber": "cucumber-js",
     "build": "tsc",
-    "test": "npm run build && npm run cucumber"
+    "build:features": "npm run build -- --project features",
+    "test": "npm run build:features && npm run cucumber"
   },
   "keywords": [],
   "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mytee306)",
