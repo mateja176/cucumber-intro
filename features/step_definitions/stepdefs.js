@@ -4,9 +4,9 @@ const { Given, When, Then } = require('cucumber');
 // eslint-disable-next-line
 const isItFriday = day => 'Nope';
 
-Given('today is Sunday', () => ({
-  today: 'Sunday',
-}));
+Given('today is Sunday', function () {
+  this.today = 'Sunday';
+});
 
 When("I ask whether it's Friday yet", function () {
   this.actualAnswer = isItFriday(this.today);
