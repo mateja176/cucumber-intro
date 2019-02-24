@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "cucumber": "cucumber-js",
+    "build": "tsc",
+    "test": "npm run build && npm run cucumber"
   },
   "keywords": [],
   "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mytee306)",
@@ -13,7 +15,8 @@
     "@types/assert": "^1.4.2",
     "@types/cucumber": "^4.0.5",
     "assert": "^1.4.1",
-    "cucumber": "^5.1.0"
+    "cucumber": "^5.1.0",
+    "typescript": "^3.3.3333"
   },
   "dependencies": {}
 }
