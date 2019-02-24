@@ -2,9 +2,7 @@ const assert = require('assert');
 const { Given, When, Then } = require('cucumber');
 
 // eslint-disable-next-line
-function isItFriday(today) {
-  // We'll leave the implementation blank for now
-}
+const isItFriday = day => 'Nope';
 
 Given('today is Sunday', () => ({
   today: 'Sunday',
