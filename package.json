@@ -1,0 +1,17 @@
+{
+  "name": "hellocucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mytee306)",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "cucumber": "^5.1.0"
+  },
+  "dependencies": {}
+}
